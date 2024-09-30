@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সায়ন</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="images/sayan-bengali.jpg">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p id="logo1"><span>সা</span>য়ন</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-thin fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-thin fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Nobody Does It Better....</p>
+                <h1>Hi,I'm <span>সায়ন</span><br>from India</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a versatile developer specializing in frontend development, AI chatbots, and app creation.
+                        With expertise in HTML, CSS, and JavaScript, I build intuitive user interfaces that enhance
+                        engagement.
+                        I also design intelligent chatbots using natural language processing to streamline communication
+                        and improve customer support. As an app developer, I create user-centric mobile applications for
+                        both iOS and Android, focusing on seamless functionality and performance.
+                        I’m dedicated to turning innovative ideas into functional solutions. Let’s connect to bring your
+                        vision to life!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>GEN AI</span><br>Design and train generative models.</li>
+                            <li><span>Web Development</span><br>Proficient in HTML, CSS, JavaScript, and responsive web design.</li>
+                            <li><span>App Development</span><br>Building Android/ios apps.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Hackathon(Boost Travel industry)</li>
+                        
+                            <li><span>2024-2025</span><br>Coming Soon!!</li>
+                            <li><span>2025-2026</span><br>Coming Soon!!</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>B.Tech In Coumputer Science and Engineering from HALDIA INSTITUTE OF TECHNOLOGY</li>
+                            <li><span>2022</span><br> Complete Higher Secondary education from WBCHSE board</li>
+                            <li><span>2020</span><br>Complete secondary education from WBBSE board</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I create custom websites that reflect your brand’s identity and engage your target audience
+                        and my responsive designs ensure your site looks great and functions seamlessly on any device.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>GEN AI</h2>
+                    <p>I develop custom generative AI models that produce innovative solutions tailored to your unique
+                        business challenges
+                        and my expertise in natural language processing enables the creation of chatbots and virtual
+                        assistants that enhance user interaction.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>I offer ongoing maintenance and support to keep your app updated and performing at its best
+                        and my app optimization strategies enhance performance, ensuring fast load times and a smooth
+                        user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------portfolio----------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Coursera Clone</h3>
+                        <p>The website connects you to the talented people around the world.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Travel Website</h3>
+                        <p>To offers virtual reality tours of destinations before booking. Allows real-time changes to
+                            your itinerary with instant updates. Connects you with local guides for authentic
+                            experiences.
+                        </p>
+                        <a href="https://sayan508.github.io/Travelopedia/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>GEN AI</h3>
+                        <p>Implement AI models that generate personalized recommendations based on user behavior and
+                            preferences, enhancing user experience in platforms like e-commerce and streaming services.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <a href="#"class="btn">See More</a>
+            </div>
+        </div>
+        <!-- ----------contact----- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>sayankundu224@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>8597236321</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100082747312867"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/sayan544562/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://github.com/sayan508/"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/sayan-kundu-216714316/"><i
+                                    class="fa-brands fa-linkedin"></i></i></a>
+                        </div>
+                        <a href="#" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Sayan.Made by Sayan</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+</body>
+
+</html>
